@@ -1,0 +1,148 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="hodpanel.master.cs" Inherits="Internship.hodpanel" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+    <title></title>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+    <style type="text/css">
+        .auto-style1 {
+            height: 23px;
+        }
+        .auto-style2 {
+            width: 140px;
+        }
+        .auto-style3 {
+            width: 140px;
+            height: 42px;
+        }
+    </style>
+</head>
+<body>
+    <form id="form1" runat="server">
+        <div>
+            
+            <table style="width:100%;">
+                <tr>
+                    <td class="auto-style1" colspan="3" style="text-align: center; font-size: 25px; color: #FF0000; background-color: #C0C0C0; vertical-align: 0%;">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Departmental Internship Portal &nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                    <td>&nbsp;</td>
+                    <td style="background-color: #C0C0C0">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Welcome&nbsp; :
+                        <asp:Label ID="Label1" runat="server" Text="Label"></asp:Label>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton1" runat="server" ForeColor="Black">Dashboard</asp:LinkButton>
+                    </td>
+                    <td colspan="2" rowspan="20">
+                        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+                            <p>
+                                <br />
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                            <p>
+                            </p>
+                        </asp:ContentPlaceHolder>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton2" runat="server" PostBackUrl="~/student.aspx" ForeColor="Black">Create Student</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton3" runat="server" PostBackUrl="~/incharge.aspx" ForeColor="Black">Internship Incharge</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton4" runat="server" PostBackUrl="~/departmentreport.aspx" ForeColor="Black">Department Report</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style3" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton5" runat="server" ForeColor="Black">Change Password</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">
+                        <asp:LinkButton ID="LinkButton6" runat="server" PostBackUrl="~/default.aspx" ForeColor="Black">Logout</asp:LinkButton>
+                    </td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td class="auto-style2" style="background-color: #C0C0C0">&nbsp;</td>
+                </tr>
+                <tr>
+                    <td colspan="3" style="background-color: #C0C0C0; text-align: center;">Develop By Shoeb<br />
+                    </td>
+                </tr>
+            </table>
+            
+        </div>
+    </form>
+</body>
+</html>
